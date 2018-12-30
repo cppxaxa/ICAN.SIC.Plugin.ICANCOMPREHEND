@@ -33,6 +33,7 @@
     <Reference Include="ICAN.SIC.Abstractions">
       <HintPath>..\..\ICAN.SIC\bin\Debug\ICAN.SIC.Abstractions.dll</HintPath>
     </Reference>
+    <Reference Include="Syn.Bot, Version=3.0.1.0, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client\CommandType.cs" />
+    <Compile Include="Client\HttpClient.cs" />
+    <Compile Include="DataTypes\BotResult.cs" />
     <Compile Include="ICANCOMPREHEND.cs" />
     <Compile Include="ICANCOMPREHENDHelper.cs" />
     <Compile Include="ICANCOMPREHENDUtility.cs" />
