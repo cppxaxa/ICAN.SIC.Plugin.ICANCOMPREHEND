@@ -22,6 +22,12 @@ namespace ICAN.SIC.Plugin.ICANCOMPREHEND
             Hub.Subscribe<IBotResult>(this.ProcessBotResult);
         }
 
+        public override void Dispose()
+        {
+            utility = null;
+            helper = null;
+        }
+
         private void ProcessBotResult(IBotResult botResult)
         {
             Hub.Publish<IBotResult>(new BotResult("Dummy - Message reached ICANCOMPREHEND", botResult.UserResponse));

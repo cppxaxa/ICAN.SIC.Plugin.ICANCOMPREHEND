@@ -10,15 +10,20 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		ICAN_Debug|Any CPU = ICAN_Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D48F9346-B89D-4076-B248-826FAE5704E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D48F9346-B89D-4076-B248-826FAE5704E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D48F9346-B89D-4076-B248-826FAE5704E3}.ICAN_Debug|Any CPU.ActiveCfg = ICAN_Debug|Any CPU
+		{D48F9346-B89D-4076-B248-826FAE5704E3}.ICAN_Debug|Any CPU.Build.0 = ICAN_Debug|Any CPU
 		{D48F9346-B89D-4076-B248-826FAE5704E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D48F9346-B89D-4076-B248-826FAE5704E3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{47116D37-B17E-49CD-9198-E25A820FAD88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{47116D37-B17E-49CD-9198-E25A820FAD88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47116D37-B17E-49CD-9198-E25A820FAD88}.ICAN_Debug|Any CPU.ActiveCfg = ICAN_Debug|Any CPU
+		{47116D37-B17E-49CD-9198-E25A820FAD88}.ICAN_Debug|Any CPU.Build.0 = ICAN_Debug|Any CPU
 		{47116D37-B17E-49CD-9198-E25A820FAD88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47116D37-B17E-49CD-9198-E25A820FAD88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
